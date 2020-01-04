@@ -16,7 +16,7 @@ import br.com.alura.agenda.model.Aluno;
 
 public class FormularioAlunoActivity extends AppCompatActivity {
 
-    public static final String TITULO_APPBAR = "Novo alunos";
+    public static final String TITULO_APPBAR = "Novo aluno";
     private TextView campoNome;
     private TextView campoTelefone;
     private TextView campoEmail;
