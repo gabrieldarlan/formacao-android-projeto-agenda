@@ -38,10 +38,8 @@ public class ListaAlunosActivity extends AppCompatActivity {
         //botao que efetua a ação de chamar a tela de formulario
         configuraFabNovoAluno();
         configuraLista();
-
         dao.salva(new Aluno("Maria", "1231321321", "maria@gmail.com"));
         dao.salva(new Aluno("Antonia", "1231321321", "antonia@gmail.com"));
-
     }
 
     @Override
